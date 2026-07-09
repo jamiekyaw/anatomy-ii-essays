@@ -70,6 +70,14 @@ html[saved-theme="dark"] {
 }
 
 @media (max-width: 800px) {
+  .page-title {
+    display: none;
+  }
+
+  .search {
+    width: 7rem;
+  }
+
   .readermode {
     display: none;
   }
