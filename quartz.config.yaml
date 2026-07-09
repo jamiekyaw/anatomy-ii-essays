@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Anatomy II
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -21,7 +21,7 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
+        light: "#fff"
         lightgray: "#e5e5e5"
         gray: "#b8b8b8"
         darkgray: "#4e4e4e"
@@ -42,7 +42,7 @@ configuration:
         textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/created-modified-date
-    enabled: true
+    enabled: false
     options:
       defaultDateType: modified
       priority:
@@ -148,7 +148,7 @@ plugins:
       position: left
       priority: 50
   - source: github:quartz-community/graph
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
@@ -198,7 +198,7 @@ plugins:
       priority: 35
       group: toolbar
   - source: github:quartz-community/breadcrumbs
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 5

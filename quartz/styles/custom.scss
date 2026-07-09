@@ -1,3 +1,26 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+.center p:not(.content-meta),
+.center li,
+.center table {
+  font-size: 1.2rem;
+}
+
+.center ol,
+.center ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.center li > ul,
+.center li > ol {
+  margin-top: 1rem;
+}
+
+.center img {
+  min-width: 300px;
+  max-width: 500px;
+}
