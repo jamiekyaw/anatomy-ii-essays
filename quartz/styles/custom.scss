@@ -70,6 +70,10 @@ html[saved-theme="dark"] {
 }
 
 @media (max-width: 800px) {
+  ul.overflow, ol.overflow {
+    width: 90%;
+  }
+
   .page-title {
     margin-left: 0.5rem;
     font-size: 1.2rem;
