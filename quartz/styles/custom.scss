@@ -13,6 +13,12 @@
   border-bottom: 1px solid var(--lightgray);
 }
 
+@media (hover: none) and (pointer: coarse) {
+  .popover {
+    display: none;
+  }
+}
+
 @media (max-width: 800px) {
   .explorer.collapsed > .explorer-content {
     transform: translate(-110vw);
