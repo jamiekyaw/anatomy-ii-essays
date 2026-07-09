@@ -2,6 +2,26 @@
 
 // put your custom CSS here!
 
+html[saved-theme="light"] {
+  .center * {
+    color: #2b2b2b;
+
+    :is(h1, h2, h3, h4, h5, h6) {
+      color: #000;
+    }
+  }
+}
+
+html[saved-theme="dark"] {
+  .center * {
+    color: #ebebec;
+
+    :is(h1, h2, h3, h4, h5, h6) {
+      color: #fff;
+    }
+  }
+}
+
 @media (hover: none) and (pointer: coarse) {
   .popover {
     display: none;
