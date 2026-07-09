@@ -103,7 +103,8 @@ html[saved-theme="dark"] {
   }
 
   .center img {
-    max-width: 60% !important;
+    min-width: 100%;
+    max-width: 100%;
   }
 }
 
