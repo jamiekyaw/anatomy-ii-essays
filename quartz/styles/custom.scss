@@ -28,6 +28,10 @@ html[saved-theme="dark"] {
   }
 }
 
+.page-title {
+  font-size: 1.6rem;
+}
+
 .explorer-content ul li > a {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -71,7 +75,9 @@ html[saved-theme="dark"] {
 
 @media (max-width: 800px) {
   .page-title {
-    display: none;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    line-height: 0;
   }
 
   .search {
