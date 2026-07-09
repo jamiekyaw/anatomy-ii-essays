@@ -64,6 +64,10 @@ html[saved-theme="dark"] {
   margin-top: 1rem;
 }
 
+p:has(img) {
+  text-align: center;
+}
+
 .center img {
   min-width: 300px;
   max-width: 500px;
