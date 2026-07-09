@@ -5,7 +5,8 @@ configuration:
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: "google"
+    tagId: "G-R6ZBL8BH9D"
   locale: en-US
   baseUrl: jamiekyaw.github.io/anatomy-ii-essays
   ignorePatterns:
