@@ -70,6 +70,11 @@ html[saved-theme="dark"] {
 }
 
 @media (max-width: 800px) {
+  .explorer .explorer-content {
+    width: 95vw;
+    max-width: 95vw;
+  }
+
   ul.overflow, ol.overflow {
     width: 90%;
   }
