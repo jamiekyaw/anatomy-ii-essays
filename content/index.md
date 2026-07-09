@@ -1,5 +1,5 @@
 ---
-title: Anatomy II Essays
+title: Anatomy II – Essays
 ---
 
 [I. Splanchnology](/i.-splanchnology/)
