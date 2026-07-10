@@ -28,6 +28,10 @@ html[saved-theme="dark"] {
   }
 }
 
+.popover > .popover-inner {
+  border: 0;
+}
+
 .search-button {
   border-radius: 0;
 }
