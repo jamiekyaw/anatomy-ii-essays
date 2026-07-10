@@ -2,8 +2,18 @@
 
 // put your custom CSS here!
 
+//html[saved-theme="light"] {
+//  .center * {
+//    color: #2b2b2b;
+//
+//    :is(h1, h2, h3, h4, h5, h6) {
+//      color: #000;
+//    }
+//  }
+//}
+
 html[saved-theme="light"] {
-  .center * {
+  .center *:not(.page-listing *) {
     color: #2b2b2b;
 
     :is(h1, h2, h3, h4, h5, h6) {
@@ -12,8 +22,18 @@ html[saved-theme="light"] {
   }
 }
 
+//html[saved-theme="dark"] {
+//  .center * {
+//    color: #ebebec;
+//
+//    :is(h1, h2, h3, h4, h5, h6) {
+//      color: #fff;
+//    }
+//  }
+//}
+
 html[saved-theme="dark"] {
-  .center * {
+  .center *:not(.page-listing *) {
     color: #ebebec;
 
     :is(h1, h2, h3, h4, h5, h6) {
