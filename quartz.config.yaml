@@ -35,7 +35,7 @@ configuration:
         light: "#161618"
         lightgray: "#393639"
         gray: "#646464"
-        darkgray: "#d4d4d4"
+        darkgray: "#ebebec"
         dark: "#ebebec"
         secondary: "#7b97aa"
         tertiary: "#84a59d"
