@@ -115,6 +115,14 @@ html[saved-theme="dark"] {
   max-width: 450px;
 }
 
+.toc {
+  pointer-events: none;
+}
+
+.toc a {
+  pointer-events: auto;
+}
+
 @media (max-width: 800px) {
   .explorer .explorer-content {
     width: 95vw;
