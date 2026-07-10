@@ -3,22 +3,14 @@
 // put your custom CSS here!
 
 html[saved-theme="light"] {
-  .center *:not(.page-listing *):not(svg) {
-    color: #2b2b2b;
-
-    :is(h1, h2, h3, h4, h5, h6) {
-      color: #000;
-    }
+  .center :is(h1, h2, h3, h4, h5, h6) {
+    color: #000;
   }
 }
 
 html[saved-theme="dark"] {
-  .center *:not(.page-listing *):not(svg) {
-    color: #ebebec;
-
-    :is(h1, h2, h3, h4, h5, h6) {
-      color: #fff;
-    }
+  .center :is(h1, h2, h3, h4, h5, h6) {
+    color: #fff;
   }
 }
 
