@@ -71,7 +71,7 @@ html[saved-theme="dark"] {
   font-size: 1.65rem;
 }
 
-.center > :not(.page-listing) h3 {
+.center h3:not(.page-listing h3) {
   font-size: 1.45rem;
 }
 
