@@ -164,7 +164,7 @@ html[saved-theme="dark"] .darkmode::before {
 }
 
 @media (min-width: 800px) and (max-width: 1200px) {
-  div:has(.readermode) {
+  div:has(> .readermode) {
     display: none;
   }
 
