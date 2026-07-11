@@ -181,12 +181,12 @@ html[saved-theme="dark"] .darkmode::before {
     max-width: 95vw;
   }
 
-  ul.overflow, ol.overflow {
-    width: 95%;
-  }
-
   .explorer.collapsed > .explorer-content {
     transform: translate(-105vw);
+  }
+
+  ul.overflow, ol.overflow {
+    width: 95%;
   }
 
   .page-title {
@@ -199,9 +199,9 @@ html[saved-theme="dark"] .darkmode::before {
     width: 7rem;
   }
 
-  //div:has(.readermode) {
-  //  display: none;
-  //}
+  div:has(> .readermode) {
+    display: none;
+  }
 
   .page > #quartz-body .center, .page > #quartz-body footer {
     min-width: 100%;
