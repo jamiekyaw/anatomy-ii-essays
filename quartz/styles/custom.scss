@@ -105,6 +105,12 @@ html[saved-theme="dark"] {
   max-width: 450px;
 }
 
+hr {
+  background: none;
+  border: 1px solid var(--lightgray);
+  height: 0;
+}
+
 .toc-content {
   pointer-events: none;
 }
