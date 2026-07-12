@@ -15,15 +15,11 @@ html[saved-theme="dark"] {
 }
 
 .popover > .popover-inner {
-  border-radius: 7px;
+  border-radius: 7px 0 0 7px;
 }
 
 .popover-hint img {
   max-width: 60%;
-}
-
-.search-button {
-  //border-radius: 0;
 }
 
 .search > .search-button svg {
