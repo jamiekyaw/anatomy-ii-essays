@@ -31,13 +31,13 @@ html[saved-theme="dark"] {
   min-width: 15px;
 }
 
-//.search > .search-container > .search-space > :not(.ghost-text):not(.tag-suggestions) {
-//  border-radius: 0;
-//}
-//
-//.search > .search-container > .search-space > .search-layout > div {
-//  border-radius: 0;
-//}
+.search > .search-container > .search-space > :not(.ghost-text):not(.tag-suggestions) {
+  overflow: hidden;
+}
+
+.search > .search-container > .search-space > .search-layout > div {
+  border-radius: 0;
+}
 
 .tree-item-children li:not(:last-child) {
   border-bottom: 1px solid var(--lightgray);
