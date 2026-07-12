@@ -71,7 +71,7 @@ plugins:
   - source: github:quartz-community/table-of-contents
     enabled: true
     options:
-      showByDefault: false
+      collapseByDefault: true
     order: 50
     layout:
       position: right
