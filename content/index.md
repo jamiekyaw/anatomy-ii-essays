@@ -2,6 +2,6 @@
 title: Anatomy II – Essays
 ---
 
-[I. Splanchnology](/i.-splanchnology/)
+[I. Splanchnology](/anatomy-ii/essays/i.-splanchnology/)
 
-[II. Regional anatomy](/ii.-regional-anatomy/)
+[II. Regional anatomy](/anatomy-ii/essays/ii.-regional-anatomy/)
